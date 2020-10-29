@@ -1,11 +1,20 @@
-body {
+html, body {
     margin: 0;
+    height: 100%;
 }
 
 #nav {
     display: flex;
     justify-content: flex-end;
     margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 #nav a {
@@ -20,7 +29,12 @@ body {
 }
 
 #middle {
-    margin-top: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 #logo {
@@ -33,11 +47,15 @@ body {
    
 }
 
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
+
 #searchbar {
     padding-top: 10px;
     padding-bottom: 10px;
     outline: 0;
-    width: 510px;
+    width: 500px;
     border-radius: 15px;
     border: 1px solid #c4c4c4;
 }
@@ -54,5 +72,22 @@ body {
     padding: 5px 10px;
     cursor: pointer;
     background: rgb(231, 231, 231);
-    
+    border-radius: 3px;
 }
+
+#links {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#footercontent {
+    background: #eeeeee;
+    border-top: 1px solid black;
+
+}
+
