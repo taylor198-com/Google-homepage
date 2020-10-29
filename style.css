@@ -44,7 +44,7 @@ a:hover {
 #searchbarcontainer {
     margin-top: 20px;
     text-align: center;
-   
+    position: relative;
 }
 
 #searchbar:hover {
@@ -58,6 +58,23 @@ a:hover {
     width: 500px;
     border-radius: 15px;
     border: 1px solid #c4c4c4;
+}
+
+#voice, #search {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    left: 10px;
+}
+
+#voice {
+    right: 10px;
 }
 
 #buttons {
