@@ -56,6 +56,8 @@ a:hover {
     padding-bottom: 10px;
     outline: 0;
     width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
     border-radius: 15px;
     border: 1px solid #c4c4c4;
 }
@@ -92,8 +94,9 @@ a:hover {
     border-radius: 3px;
 }
 
-#links {
-    text-align: center;
+.button:hover {
+    box-shadow: 0 0 2px 1px black;
+    board: 2px solid #eeeeee
 }
 
 body {
