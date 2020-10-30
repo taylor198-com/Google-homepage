@@ -99,6 +99,13 @@ a:hover {
     board: 2px solid #eeeeee
 }
 
+#btnsearch {
+    width: 5px;
+    height: 10px;
+    color: black;
+    
+}
+
 body {
     display: flex;
     flex-direction: column;
