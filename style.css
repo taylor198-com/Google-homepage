@@ -24,7 +24,7 @@ a:hover {
 #nav a.topimage {
     width: 20px;
     height: 20px;
-    background: red;
+    background: rgb(44, 46, 128);
     border-radius: 50%;
 }
 
