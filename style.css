@@ -48,7 +48,7 @@ a:hover {
 }
 
 #searchbar:hover {
-    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+    box-shadow: 0 0 10px 2px rgb(211, 210, 210);
 }
 
 #searchbar {
@@ -56,7 +56,7 @@ a:hover {
     padding-bottom: 10px;
     outline: 0;
     width: 500px;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-right: 30px;
     border-radius: 15px;
     border: 1px solid #c4c4c4;
@@ -75,9 +75,10 @@ a:hover {
     left: 10px;
 }
 
-#voice {
-    right: 10px;
-}
+.searchbtn {
+    border: none;
+    background: transparent;
+    }
 
 #buttons {
     display: flex;
@@ -92,18 +93,15 @@ a:hover {
     cursor: pointer;
     background: rgb(231, 231, 231);
     border-radius: 3px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    opacity: 50%;
 }
 
 .button:hover {
     box-shadow: 0 0 2px 1px black;
-    board: 2px solid #eeeeee
-}
-
-#btnsearch {
-    width: 5px;
-    height: 10px;
-    color: black;
-    
+    board: 2px solid #eeeeee;
+    opacity: 100%
 }
 
 body {
