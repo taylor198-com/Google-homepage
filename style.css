@@ -44,7 +44,7 @@ a:hover {
 #searchbarcontainer {
     margin-top: 20px;
     text-align: center;
-    position: top;
+    position: relative;
 }
 
 #searchbar:hover {
