@@ -1,14 +1,39 @@
 img {
     width: 10%;
-    bottom: 10px;
+    padding-right: 60px;
 }
 
-div {
-  width: fit-content;
-  border: 0.5px solid rgb(202, 204, 202);
-  padding: 46px;
-  margin: 0px;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+#searchbox {
+    border: 1px solid rgb(202, 204, 202);
+    padding: 12px;
+    margin: 0px;
+    display: flex;
+    border: none;
+   
+}
+
+#search {
+    position: relative;
+    text-align: center;
+    
+}
+
+#searchbar {
+    padding-right: 20px;
+    width: 600px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+#nav {
+    border: 1px solid rgb(202, 204, 202);
+    padding: 12px;
+    margin: 0px;
+    display: flex;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
 }
