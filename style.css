@@ -84,7 +84,7 @@ a:hover {
     display: flex;
     justify-content: center;
     margin-top: 20px;
-}
+    }
 
 .button {
     margin-left: 10px;
@@ -96,7 +96,8 @@ a:hover {
     font-size: 14px;
     font-family: Arial, sans-serif;
     opacity: 50%;
-}
+    border: 2px solid transparent;
+    }
 
 .button:hover {
     box-shadow: 0 0 2px 1px black;
