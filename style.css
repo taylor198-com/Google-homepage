@@ -100,7 +100,7 @@ a:hover {
 
 .button:hover {
     box-shadow: 0 0 2px 1px black;
-    board: 2px solid #eeeeee;
+    border: 2px solid #eeeeee;
     opacity: 100%
 }
 
